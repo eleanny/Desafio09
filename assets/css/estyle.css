@@ -10,13 +10,12 @@ h3{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 1.6em;
-	padding-left: 50px;
+	padding-left: 30px;
 }
 p{
     font-weight: 200;
 	font-size: 0.9em;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 30px;
 }
 .block{
   background-color: #e56353;
@@ -28,11 +27,15 @@ p{
   padding: 0;
   margin: 0;
 }
-.header__title{
+.encabezado__header{
+	height: 300px;
+}
+.encabezado__title{
+   padding-top: 50px;
    font-weight: 200;
 }
 .information{
-	height: 400px;
+	height: 800px;
 	padding: 0;
 }
 .information__img{
@@ -54,7 +57,7 @@ p{
 }
 @media only screen and (max-width: 767px){
 .information{
-	height: 302px;
+	height: 1000px;
 	padding: 0;
 }
 .information__col{
@@ -62,14 +65,26 @@ p{
 }
 .information__parrafo--1{
 	background-image: url(../img/our-tomatoes.png);
+	padding-top:0;
+	height: 500px;
 }
 .information__parrafo--2{
 	background-image: url(../img/img-history.png);
+	padding-top:0;
+	height: 500px;
 	color: black;
 }
 }
 .blog__img{
 	height: 300px;
+}
+.encabezado__nosotros{
+	height: 200px;
+	
+}
+.encabezado__nosotros h2{
+    padding-top: 60px;
+	
 }
 .nosotros{
 	background-color: #FAFAFA;
@@ -83,20 +98,35 @@ p{
 	color: #707070;
 }
 .nosotros img{
-	padding-right: 0;
+	margin:0;
+	padding:0;
 }
 @media only screen and (max-width: 767px){
   .nosotros img{
   	width: 100%
   	height:200px;
   	padding-top: 20px;
-  	padding-left: 210px;
 
   }
+}
+.contacto {
+	height: 200px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.contacto h2{
+	padding-top: 30px;
 }
 .contacto__button{
 	border-radius:150px;
 }
+@media only screen and (max-width: 767px){
+ 
+  .contacto h2{
+     font-size: 2em;
+  }
+
+	}
 .footer{
 	background-color: #686963;
 }
@@ -127,14 +157,16 @@ p{
   	display: none;
   }
   .footer__icono{
-	width: 10%;
-
+  	padding-top: 9px;
+	padding-left: 4.5px;
+	padding-right: 6px;
+  	font-size: 30px;
+  	height: 50px;
+  	width: 20%;
   }
   .footer__info{
-  	float:left;
-  	margin-right: 5px;
-  	margin-left: 60px;
-  	margin-bottom: 20px;
-  	padding-top: 0px;
+
+  	padding-top:10px;
+ 
   }
 }
