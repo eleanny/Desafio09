@@ -1,0 +1,140 @@
+h2,p{
+   font-family: 'Raleway', sans-serif;	
+   
+}
+h2{
+	font-size: 3em;
+	font-weight: 800;
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.6em;
+	padding-left: 50px;
+}
+p{
+    font-weight: 200;
+	font-size: 0.9em;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.block{
+  background-color: #e56353;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+.block__inner{
+  padding: 0;
+  margin: 0;
+}
+.header__title{
+   font-weight: 200;
+}
+.information{
+	height: 400px;
+	padding: 0;
+}
+.information__img{
+	width: 100%;
+	height: 400px;
+	padding: 0;
+	margin: 0;
+}
+.information__parrafo--1{
+	background-color: #707070;
+	color: #FAFAFA;
+}
+.information__parrafo--2{
+	background-color: #FAFAFA;
+	color: #707070;
+}
+.information h3{
+	padding-top: 90px;
+}
+@media only screen and (max-width: 767px){
+.information{
+	height: 302px;
+	padding: 0;
+}
+.information__col{
+	display: none;
+}
+.information__parrafo--1{
+	background-image: url(../img/our-tomatoes.png);
+}
+.information__parrafo--2{
+	background-image: url(../img/img-history.png);
+	color: black;
+}
+}
+.blog__img{
+	height: 300px;
+}
+.nosotros{
+	background-color: #FAFAFA;
+}
+.nosotros h3{
+
+	color: #707070;
+}
+.nosotros p{
+
+	color: #707070;
+}
+.nosotros img{
+	padding-right: 0;
+}
+@media only screen and (max-width: 767px){
+  .nosotros img{
+  	width: 100%
+  	height:200px;
+  	padding-top: 20px;
+  	padding-left: 210px;
+
+  }
+}
+.contacto__button{
+	border-radius:150px;
+}
+.footer{
+	background-color: #686963;
+}
+.footer p{
+	font-size: 1em;
+}
+.footer__icono{
+    background-color: #FFFFFF;
+	color: #707070;
+	border: solid 1px #707070;
+	border-radius: 150px;
+	padding-top: 7px;
+	padding-left: 9.5px;
+	padding-right: 12px;
+	width: 15%;
+	height: 60px;
+
+}
+.footer__info{
+
+	color: #FAFAFA;
+}
+@media only screen and (max-width: 767px){
+  .footer{
+  	text-align: center;
+  }
+  .footer__img{
+  	display: none;
+  }
+  .footer__icono{
+	width: 10%;
+
+  }
+  .footer__info{
+  	float:left;
+  	margin-right: 5px;
+  	margin-left: 60px;
+  	margin-bottom: 20px;
+  	padding-top: 0px;
+  }
+}
